@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileTransfer", "FileTransfer\FileTransfer.csproj", "{062D5765-D2D9-4AD9-900E-784FF991BD09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		linux|Any CPU = linux|Any CPU
+		linux|x64 = linux|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{062D5765-D2D9-4AD9-900E-784FF991BD09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{062D5765-D2D9-4AD9-900E-784FF991BD09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{062D5765-D2D9-4AD9-900E-784FF991BD09}.Debug|x64.ActiveCfg = Debug|x64
+		{062D5765-D2D9-4AD9-900E-784FF991BD09}.Debug|x64.Build.0 = Debug|x64
+		{062D5765-D2D9-4AD9-900E-784FF991BD09}.linux|Any CPU.ActiveCfg = linux|Any CPU
+		{062D5765-D2D9-4AD9-900E-784FF991BD09}.linux|Any CPU.Build.0 = linux|Any CPU
+		{062D5765-D2D9-4AD9-900E-784FF991BD09}.linux|x64.ActiveCfg = linux|x64
+		{062D5765-D2D9-4AD9-900E-784FF991BD09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{062D5765-D2D9-4AD9-900E-784FF991BD09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{062D5765-D2D9-4AD9-900E-784FF991BD09}.Release|x64.ActiveCfg = Release|x64
+		{062D5765-D2D9-4AD9-900E-784FF991BD09}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
