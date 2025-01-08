@@ -23,8 +23,10 @@ namespace FileTransfer.Commands
                                        .AddColumn($"[bold]{GetString("CommandDescriptionTitle")}[/]")
                                        .Expand();
                 table.AddRow("cls/clean/clear", "cls", GetString("HelpCls"));
+                table.AddRow("exit", "exit", GetString("ExitHelp"));
                 table.AddRow("help", "help [[xxx]]", GetString("HelpHelp"));
-                table.AddRow("server/sl", "server [[IpToConnect]]", GetString("serverHelp"));
+                table.AddRow("lang", "lang <Language-Code>", GetString("LangHelp"));
+                table.AddRow("server/sl", "server [[IpToConnect]]", GetString("ServerHelp"));
                 AnsiConsole.Write(table);
             }
             else

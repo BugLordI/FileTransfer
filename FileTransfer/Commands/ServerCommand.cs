@@ -1,10 +1,6 @@
-﻿using FileTransfer.Core;
-using FileTransfer.Core.SocketTool;
+﻿using FileTransfer.Core.SocketTool;
 using Spectre.Console;
 using Spectre.Console.Cli;
-using System.ComponentModel.DataAnnotations;
-using System.Security.Cryptography.X509Certificates;
-using static FileTransfer.i18n.LanuageMananger;
 namespace FileTransfer.Commands
 {
     internal class ServerCommand : Command<ServerCommand.Settings>

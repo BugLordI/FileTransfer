@@ -157,7 +157,16 @@
   <data name="DisconnectedStr" xml:space="preserve">
     <value>连接已断开</value>
   </data>
-  <data name="serverHelp" xml:space="preserve">
+  <data name="ServerHelp" xml:space="preserve">
     <value>获取已经发现的服务列表或者连接到指定的IP</value>
+  </data>
+  <data name="ExitHelp" xml:space="preserve">
+    <value>退出程序</value>
+  </data>
+  <data name="LangHelp" xml:space="preserve">
+    <value>设置语言，如 中文：zh-cn英文：en-us</value>
+  </data>
+  <data name="RestartAsk" xml:space="preserve">
+    <value>是否重启程序,应用更改?</value>
   </data>
 </root>

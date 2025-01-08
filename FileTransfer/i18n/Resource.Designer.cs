@@ -151,6 +151,15 @@ namespace FileTransfer.i18n {
         }
         
         /// <summary>
+        ///   查找类似 Exit the program 的本地化字符串。
+        /// </summary>
+        internal static string ExitHelp {
+            get {
+                return ResourceManager.GetString("ExitHelp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 To clear the console 的本地化字符串。
         /// </summary>
         internal static string HelpCls {
@@ -187,11 +196,29 @@ namespace FileTransfer.i18n {
         }
         
         /// <summary>
+        ///   查找类似 Set language like Chinese:&apos;zh-cn&apos;,English:&apos;en-us&apos;... 的本地化字符串。
+        /// </summary>
+        internal static string LangHelp {
+            get {
+                return ResourceManager.GetString("LangHelp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Receive: 的本地化字符串。
         /// </summary>
         internal static string ReceiveStr {
             get {
                 return ResourceManager.GetString("ReceiveStr", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Do you want to restart the application to apply changes? 的本地化字符串。
+        /// </summary>
+        internal static string RestartAsk {
+            get {
+                return ResourceManager.GetString("RestartAsk", resourceCulture);
             }
         }
         
@@ -207,9 +234,9 @@ namespace FileTransfer.i18n {
         /// <summary>
         ///   查找类似 Get server list or connect to  the specified IP 的本地化字符串。
         /// </summary>
-        internal static string serverHelp {
+        internal static string ServerHelp {
             get {
-                return ResourceManager.GetString("serverHelp", resourceCulture);
+                return ResourceManager.GetString("ServerHelp", resourceCulture);
             }
         }
         
