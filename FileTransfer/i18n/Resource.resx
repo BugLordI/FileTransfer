@@ -177,7 +177,16 @@
   <data name="DisconnectedStr" xml:space="preserve">
     <value>Connection down...</value>
   </data>
-  <data name="serverHelp" xml:space="preserve">
+  <data name="ServerHelp" xml:space="preserve">
     <value>Get server list or connect to  the specified IP</value>
+  </data>
+  <data name="ExitHelp" xml:space="preserve">
+    <value>Exit the program</value>
+  </data>
+  <data name="LangHelp" xml:space="preserve">
+    <value>Set language like Chinese:'zh-cn',English:'en-us'...</value>
+  </data>
+  <data name="RestartAsk" xml:space="preserve">
+    <value>Do you want to restart the application to apply changes?</value>
   </data>
 </root>

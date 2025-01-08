@@ -19,7 +19,11 @@ namespace FileTransfer.Commands
                 {"cls",GetString("HelpCls") },
                 {"clear",GetString("HelpCls") },
                 {"clean",GetString("HelpCls") },
-                {"help",GetString("HelpHelp") }
+                {"exit",GetString("ExitHelp") },
+                {"help",GetString("HelpHelp") },
+                {"lang",GetString("LangHelp") },
+                {"server",GetString("ServerHelp") },
+                {"sl",GetString("ServerHelp") }
             };
         }
 
@@ -40,6 +44,8 @@ namespace FileTransfer.Commands
                 config.AddCommand<HelpCommand>("help");
                 config.AddCommand<ServerCommand>("server");
                 config.AddCommand<ServerCommand>("sl");
+                config.AddCommand<ExitCommand>("exit");
+                config.AddCommand<LangCommand>("lang");
             });
             return app;
         }
